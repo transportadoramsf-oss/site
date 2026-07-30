@@ -1,8 +1,8 @@
-import Image from "next/image";
+import { ReactNode } from "react";
 import Link from "next/link";
 
 interface BoxContatoProps {
-  icone: string;
+  icone: ReactNode;
   titulo: string;
   href: string;
   contato: string;
@@ -17,12 +17,14 @@ export default function BoxContato({
   description,
 }: BoxContatoProps) {
   return (
-    <div className="flex items-center gap-4">
-      <Image src={icone} alt={titulo} width={40} height={40} />
+    <div className="flex border rounded-xl border-gray-200 px-4 py-4 items-center gap-4 shadow-sm">
+      <div className="bg-gray-300 p-3 text-blue-600">
+        {icone}
+      </div>
 
       <div>
-        <h1>{titulo}</h1>
-        <Link href={href}>{contato}</Link>
+        <h1 className="pt-3.5 font-bold">{titulo}</h1>
+        <Link href={href} className="">{contato}</Link>
         <p>{description}</p>
       </div>
     </div>
