@@ -19,9 +19,9 @@ export function NavBar() {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <Link href="/" className={`px-3 py-2 rounded-md ${pathname === "/" ? "text-base font-bold underline underline-offset-3 decoration-3" : "text-sm font-medium"}`}>Inicio</Link>
-              <Link href="/Sobre" className={`px-3 py-2 rounded-md ${pathname === "/Sobre" ? "text-base font-bold underline underline-offset-3 decoration-3" : "text-sm font-medium"}`}>Sobre</Link>
-              <Link href="/Contato" className={`px-3 py-2 rounded-md ${pathname === "/Contato" ? "text-base font-bold underline underline-offset-3 decoration-3" : "text-sm font-medium"}`}>Contato</Link>
+              <Link href="/" className={`px-3 py-2 rounded-md ${pathname === "/" ? "text-sm font-bold underline underline-offset-3 decoration-3" : "text-sm font-medium"}`}>Inicio</Link>
+              <Link href="/Sobre" className={`px-3 py-2 rounded-md ${pathname === "/Sobre" ? "text-sm font-bold underline underline-offset-3 decoration-3" : "text-sm font-medium"}`}>Sobre</Link>
+              <Link href="/Contato" className={`px-3 py-2 rounded-md ${pathname === "/Contato" ? "text-sm font-bold underline underline-offset-3 decoration-3" : "text-sm font-medium"}`}>Contato</Link>
             </div>
           </div>
         </div>
