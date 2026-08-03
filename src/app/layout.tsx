@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/componentes/NavBar";
 import { Footer } from "@/componentes/Footer";
+import BotaoWhatsapp from "@/componentes/BotaoWhatsapp";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +34,7 @@ export default function RootLayout({
         <NavBar/>
         {children}
         <Footer/>
+        <BotaoWhatsapp/>
       </body>
     </html>
   );
