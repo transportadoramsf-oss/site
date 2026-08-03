@@ -3,7 +3,7 @@ import Link from "next/link";
 export function Hero() {
     return (
         <section 
-                className="relative w-[90%] max-w-7xl mx-auto bg-cover p-8 text-white"
+                className="relative w-[90%] max-w-7xl mx-auto bg-cover p-8 text-white h-105"
                 style={{ backgroundImage: "url('/backgroundHero.png')",
                 backgroundPosition: "center 60%",
                  }}>
