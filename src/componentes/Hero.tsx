@@ -10,7 +10,7 @@ export function Hero() {
 
             <div className="flex flex-col gap-3 py-4">
             <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold">Soluções em<br/> transporte que<br/> movem o seu negócio</h1>
-            <h1 className="text-base sm:text-lg lg:text-xl">Transporte seguro, ágil e eficiente para todo o Brasil.<br/> Conte com a NSF Consultoria e logistica.</h1>
+            <h1 className="text-base sm:text-lg lg:text-xl">Transporte seguro, ágil e eficiente para todo o Brasil.<br/> Conte com a MSF Consultoria e logistica.</h1>
             <Link href="/Contato" className="inline-block w-fit rounded-lg bg-blue-600 px-5 sm:px-6 py-3 font-semibold text-white transition hover:bg-blue-800">Entre em contato</Link>
             </div>
         </section>

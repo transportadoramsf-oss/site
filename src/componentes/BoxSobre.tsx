@@ -17,7 +17,7 @@ export default function BoxSobre({
   description,
 }: BoxSobreProps) {
   return (
-    <div className="flex border rounded-xl border-gray-200 px-4 py-3 items-center gap-4 shadow-sm transition-shadow duration-300 hover:shadow-[0_1px_10px_#00008B]">
+    <div className="flex border rounded-xl border-gray-300 bg-white px-4 py-3 items-center gap-4 shadow-sm transition-shadow duration-300 hover:shadow-[0_1px_10px_#00008B]">
       <div className="p-4 text-gray-900">
         {icone}
       </div>

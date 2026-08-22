@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="bg-gray-800 text-white">
       <div className="w-full md:h-28 max-w-6xl mx-auto">
-        <div className="flex flex-col p-6 md:items-center md:flex-row justify-between gap-4 md:p-1">
+        <div className="flex flex-col md:items-center md:flex-row justify-between px-4">
           
           <Image
             src="/LogoHDI.png"
