@@ -1,9 +1,7 @@
-import BoxContato from "@/componentes/BoxContato";
 import BoxSobre from "@/componentes/BoxSobre";
 import Link from "next/dist/client/link";
 import Image from "next/image";
 import { CiViewList } from "react-icons/ci";
-import { FaWhatsapp } from "react-icons/fa";
 import { GiCardboardBoxClosed } from "react-icons/gi";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import { PiTruck } from "react-icons/pi";
@@ -76,7 +74,7 @@ export function Sobre() {
                                     Estamos construindo um novo armazém para ampliar nossa capacidade de atendimento, com mais estrutura, tecnologia e segurança para melhor receber e cuidar da sua carga.
                                 </p>
 
-                                <div className="flex flex-col gap-2 p-2">
+                                <div className="flex flex-col gap-2 p-1">
                                     <div className="flex gap-2 items-center">
                                         <IoCheckmarkCircle size={23} className="text-blue-500"/>
                                         <h1 className="text-sm">Estrutura planejada para atender melhor nossos clientes</h1>

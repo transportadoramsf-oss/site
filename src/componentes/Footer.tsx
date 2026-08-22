@@ -1,21 +1,22 @@
-import { Truck } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export function Footer() {
   return (
     <footer className="bg-gray-800 text-white">
-      <div className="w-full max-w-6xl mx-auto p-4">
-        <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-4">
+      <div className="w-full md:h-28 max-w-6xl mx-auto">
+        <div className="flex flex-col p-6 md:items-center md:flex-row justify-between gap-4 md:p-1">
+          
+          <Image
+            src="/LogoHDI.png"
+            alt="Logo"
+            width={500}
+            height={500}
+            className="w-auto h-auto md:h-28"
+          />
+          
           <div>
-            <div className="flex gap-2 shrink-0 items-center">
-              <Truck size={40} />
-              <h1 className="text-sm font-bold">Consultoria<br/> & Logistica.</h1>
-            </div>
-            <p className="text-xs pt-1">Soluções completas em transporte<br/> & logística para todo o Brasil.</p>
-          </div>
-
-          <div>
-            <h1 className="text-lg font-semibold">NAVEGAÇÃO</h1>
+            <h1 className="text-lg font-semibold text-[#2b9da6]">NAVEGAÇÃO</h1>
             <div className="flex flex-col text-sm font-medium text-gray-100 gap-1">
               <Link href="/">Inicio</Link>
               <Link href="/Sobre">Sobre</Link>
@@ -24,7 +25,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h1 className="text-lg font-semibold">SERVIÇOS</h1>
+            <h1 className="text-lg font-semibold text-[#2b9da6]">SERVIÇOS</h1>
             <div className="flex flex-col text-sm font-medium text-gray-100 gap-1">
               <h1>Dedicada</h1>
               <h1>Fracionada</h1>
@@ -33,7 +34,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h1 className="text-lg font-semibold">CONTATO</h1>
+            <h1 className="text-lg font-semibold text-[#2b9da6]">CONTATO</h1>
             <div className="flex flex-col text-sm font-medium text-gray-100 gap-1">
               <Link href="/">NUMERO</Link>
               <Link href="/">EMAIL</Link>

@@ -1,6 +1,7 @@
 "use client";
 
-import { Truck, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
@@ -33,10 +34,15 @@ export function NavBar() {
     <div ref={navRef}>
       <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-100 text-gray-900 md:static">
         <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex gap-2 shrink-0 items-center">
-              <Truck size={40} className="text-black" />
-              <h1 className="text-sm font-bold leading-tight">Consultoria<br/> & Logistica.</h1>
+          <div className="flex items-center justify-between h-18">
+            <div className="flex items-center">
+              <Image
+                src="/LogoHD.png"
+                alt="Logo"
+                width={1280}
+                height={700}
+                className="w-auto h-18 p-2"
+              />
             </div>
 
             <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden">
