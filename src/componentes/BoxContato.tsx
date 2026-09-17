@@ -6,7 +6,7 @@ interface BoxContatoProps {
   titulo: string;
   href?: string;
   contato?: string;
-  description: string;
+  description?: string;
 }
 
 export default function BoxContato({

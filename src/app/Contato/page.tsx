@@ -49,7 +49,7 @@ export function Contatos() {
             titulo="Endereço"
             href="https://www.google.com/maps?ll=-20.755364,-42.877369&z=15&t=m&hl=pt-BR&gl=BR&mapclient=embed"
             contato={process.env.NEXT_PUBLIC_ENDERECO!}
-            description={process.env.NEXT_PUBLIC_SUBENDERECO!}
+            //description={process.env.NEXT_PUBLIC_SUBENDERECO!}
           />
         </div>
 
