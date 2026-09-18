@@ -35,7 +35,7 @@ export function NavBar() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-100 text-gray-900 md:static">
         <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-18">
-            <div className="flex items-center">
+            <Link href="/" className="flex items-center">
               <Image
                 src="/LogoHD.png"
                 alt="Logo"
@@ -43,7 +43,7 @@ export function NavBar() {
                 height={700}
                 className="w-auto h-18 p-2"
               />
-            </div>
+            </Link>
 
             <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden">
               {menuOpen ? <X size={28} /> : <Menu size={28} />}
